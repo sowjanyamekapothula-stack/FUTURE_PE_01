@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alika The Salon | Vijayawada</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #fff8f6;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #ff8fb1, #ffc4d6);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin-bottom: 15px;
+    }
+
+    header p {
+      font-size: 20px;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 14px 30px;
+      background: white;
+      color: #ff5d8f;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 30px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #ff5d8f;
+      color: white;
+    }
+
+    section {
+      padding: 60px 10%;
+    }
+
+    h2 {
+      text-align: center;
+      color: #ff5d8f;
+      margin-bottom: 40px;
+      font-size: 36px;
+    }
+
+    .intro {
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
+      font-size: 18px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .service-card {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+      transition: 0.3s;
+    }
+
+    .service-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .service-card h3 {
+      color: #ff5d8f;
+      margin-bottom: 10px;
+    }
+
+    .trust {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .trust-box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      width: 280px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    }
+
+    .cta {
+      background: #ff5d8f;
+      color: white;
+      text-align: center;
+      border-radius: 20px;
+      padding: 50px 20px;
+    }
+
+    .cta h2 {
+      color: white;
+    }
+
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 34px;
+      }
+
+      h2 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Feel Confident Every Time You Walk Out</h1>
+    <p>
+      Premium hair, skin, and beauty services in Vijayawada designed for busy professionals,
+      students, and brides who want to look their best.
+    </p>
+    <a href="#contact" class="btn">Book Your Appointment</a>
+  </header>
+
+  <section>
+    <h2>About Alika The Salon</h2>
+    <p class="intro">
+      At Alika The Salon, we believe beauty should feel easy, relaxing, and personal.
+      Whether you need a quick haircut, a refreshing facial, or complete bridal styling,
+      our trained professionals help you look great and feel even better.
+    </p>
+  </section>
+
+  <section>
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>Haircuts & Styling</h3>
+        <p>Customized haircuts and stylish looks designed to match your face shape and personality.</p>
+      </div>
+
+      <div class="service-card">
+        <h3>Hair Spa & Keratin</h3>
+        <p>Deep nourishment and smoothening treatments for dry, frizzy, and damaged hair.</p>
+      </div>
+
+      <div class="service-card">
+        <h3>Facials & Skin Care</h3>
+        <p>Glow-enhancing facials and skincare treatments suitable for every skin type.</p>
+      </div>
+
+      <div class="service-card">
+        <h3>Bridal Makeup</h3>
+        <p>Elegant bridal makeup and styling to make your special day unforgettable.</p>
+      </div>
+
+      <div class="service-card">
+        <h3>Waxing, Manicure & Pedicure</h3>
+        <p>Complete self-care and grooming services to keep you looking polished and fresh.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Why Choose Us?</h2>
+    <div class="trust">
+      <div class="trust-box">
+        <h3>Experienced Stylists</h3>
+        <p>Our team is trained in the latest beauty and haircare trends.</p>
+      </div>
+
+      <div class="trust-box">
+        <h3>Clean & Hygienic</h3>
+        <p>We maintain a safe, clean, and comfortable salon environment.</p>
+      </div>
+
+      <div class="trust-box">
+        <h3>Personalized Care</h3>
+        <p>Every service is customized based on your hair type, skin type, and occasion.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="contact">
+    <h2>Ready for Your Next Makeover?</h2>
+    <p style="font-size:18px; margin-top:15px;">
+      Book your appointment today and enjoy premium salon care without the stress.
+    </p>
+    <a href="tel:+919876543210" class="btn">Call Now</a>
+  </section>
+
+  <footer>
+    <p>Alika The Salon, Vijayawada | Phone: +91 98765 43210</p>
+  </footer>
+
+</body>
+</html>
