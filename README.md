@@ -1,85 +1,68 @@
 # AI Website Copy Framework for Alika The Salon
 
-This project demonstrates how Prompt Engineering and AI tools can generate professional, conversion-focused website copy for a local business.
+This repository contains a complete AI-generated website copy system for a local salon business.
 
-The selected business for this project is **Alika The Salon, Vijayawada**, a premium unisex salon offering hair, beauty, bridal, and grooming services.
-
----
-
-# Project Objective
-
-Many local businesses struggle with:
-
-- Unclear website copy
-- Weak value propositions
-- Generic content
-- Poor calls-to-action
-
-This project solves those problems by creating a reusable prompt system that generates:
-
+The project is created for **Alika The Salon, Vijayawada** and includes:
 - Homepage copy
 - Services page content
-- Persuasive CTA sections
-- Tone variations for different business styles
-
-The final content is designed to be ready for a real business website.
+- CTA sections
+- HTML, CSS, and JavaScript website files
+- Reusable prompts for generating website copy
 
 ---
 
-# Business Chosen
+## Business Selected
 
 **Business Name:** Alika The Salon  
 **Location:** Vijayawada  
-**Business Type:** Unisex Salon & Beauty Studio
+**Type:** Unisex Salon & Beauty Studio
 
-### Services Offered
+The salon provides:
 - Haircuts & Styling
 - Hair Spa & Keratin
 - Facials & Skin Care
 - Bridal Makeup
 - Waxing, Manicure & Pedicure
 
-### Target Audience
-- Working professionals
-- College students
-- Brides-to-be
-- Families
+---
+
+## Problem Solved
+
+Most local businesses lose customers because:
+- Their website copy is unclear
+- Their value proposition is weak
+- Their calls-to-action are confusing
+- Their content feels outdated or generic
+
+This project uses Prompt Engineering and AI tools to create website-ready content that improves trust and conversions.
 
 ---
 
-# Tools Used
+## Objective
 
+The goal of this project is to create a reusable prompt framework that can:
+- Generate homepage content
+- Create service descriptions
+- Write strong CTA sections
+- Adapt tone based on the business type
+
+---
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
 - ChatGPT
 - Claude
 - Google Gemini
-- Lovable AI
-- Framer AI
 
 ---
 
-# Prompt Framework
-
-The project uses four structured prompts:
-
-1. Homepage Copy Prompt
-2. Services Page Prompt
-3. CTA Prompt
-4. Tone Adaptation Prompt
-
-Each prompt includes:
-- Business type
-- Target audience
-- Services
-- Location
-- Desired tone
-- Output format
-
----
-
-# Files Included
+## Folder Structure
 
 ```text
-project/
+Alika-Salon-Website/
 │
 ├── index.html
 ├── style.css
@@ -87,13 +70,13 @@ project/
 ├── README.md
 │
 ├── prompts/
-│   ├── homepage-prompt.md
-│   ├── services-prompt.md
-│   ├── cta-prompt.md
-│   └── tone-prompt.md
+│   ├── homepage-prompt.txt
+│   ├── services-prompt.txt
+│   ├── cta-prompt.txt
+│   └── tone-adaptation-prompt.txt
 │
 └── outputs/
-    ├── homepage-copy.md
-    ├── services-copy.md
-    ├── cta-copy.md
-    └── tone-variations.md
+    ├── homepage-copy.txt
+    ├── services-copy.txt
+    ├── cta-copy.txt
+    └── tone-variations.txt
